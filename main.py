@@ -1,16 +1,16 @@
-numero_usuario = int(input("De que numero quieres la tabla?"))
+user_number = int(input("What number would you like to multiply? "))
 
-if numero_usuario < 1:
-    numero_usuario = 1
+if user_number < 1:
+    user_number = 1
 
-print(f"#### Tabla de multiplicar del numero {numero_usuario} ####")
+print(f"!!!! Multiplication chart of the number {user_number} !!!!")
 
-for numero_tabla in range(1, 11):
+for table_number in range(1, 11):
 
-    if numero_usuario == 12:
-        print("No se pueden mostrar numeros prohibidos!")
+    if user_number == 12:
+        print("I can't show this!")
         break
 
-    print(f"{numero_usuario} x {numero_tabla} = {numero_usuario*numero_tabla}")
+    print(f"{user_number} x {table_number} = {user_number*table_number}")
 else: 
-    print("Tabla finalizada")
+    print("Finish")
