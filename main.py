@@ -3,7 +3,7 @@ user_number = int(input("What number would you like to multiply? "))
 if user_number < 1:
     user_number = 1
 
-print(f"!!!! Multiplication chart of the number {user_number} !!!!")
+print(f"*** Multiplication chart of the number {user_number} ***")
 
 for table_number in range(1, 11):
 
@@ -13,4 +13,4 @@ for table_number in range(1, 11):
 
     print(f"{user_number} x {table_number} = {user_number*table_number}")
 else: 
-    print("Finish")
+    print("Finish, I can't show more numbers")
